@@ -9,13 +9,16 @@ class HelperTest extends \PHPUnit_Framework_TestCase
         $firstPath = \PhpunitTempDir\Helper::createTempDir();
 
         $this->assertEquals('vfs://root/', $firstPath);
-        $this->assertFileExists($firstPath);
 
-        $customPath = \PhpunitTempDir\Helper::createTempDir('custom');
+        mkdir($firstPath . 'loremipsum');
 
-        $this->assertEquals('vfs://custom/', $customPath);
+        $this->assertFileExists($firstPath . 'loremipsum');
+
+        $customPath = \PhpunitTempDir\Helper::createTempDir();
+
+        $this->assertEquals('vfs://root/', $customPath);
         $this->assertFileExists($customPath);
 
-        $this->assertFileNotExists($firstPath);
+        $this->assertFileNotExists($firstPath . 'loremipsum');
     }
 }
