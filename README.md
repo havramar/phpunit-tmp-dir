@@ -3,6 +3,8 @@ phpunit-tmp-dir
 
 Wrapper around [vfsStream](https://github.com/mikey179/vfsStream) for easier creation temporary directories in [PhpUnit](http://phpunit.de/) tests.
 
+[![Build Status](https://travis-ci.org/havramar/phpunit-tmp-dir.svg?branch=master)](https://travis-ci.org/havramar/phpunit-tmp-dir)
+
 ## Why
 
 Needed extremely simple way of creating temporary folder, whose content is deleted when tests are finished.
