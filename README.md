@@ -1,7 +1,7 @@
 phpunit-tmp-dir
 ===============
 
-Wrapper around [vfsStream](https://github.com/mikey179/vfsStream) for easier creation temporary directories in phpunit tests.
+Wrapper around [vfsStream](https://github.com/mikey179/vfsStream) for easier creation temporary directories in [PhpUnit](http://phpunit.de/) tests.
 
 ## Why
 
