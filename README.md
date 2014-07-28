@@ -4,6 +4,7 @@ phpunit-tmp-dir
 Wrapper around [vfsStream](https://github.com/mikey179/vfsStream) for easier creation temporary directories in [PhpUnit](http://phpunit.de/) tests.
 
 [![Build Status](https://travis-ci.org/havramar/phpunit-tmp-dir.svg?branch=master)](https://travis-ci.org/havramar/phpunit-tmp-dir)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/5fb9272b-9b24-477b-bd3a-8ac9c4eb8844/mini.png)](https://insight.sensiolabs.com/projects/5fb9272b-9b24-477b-bd3a-8ac9c4eb8844)
 
 ## Why
 
