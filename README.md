@@ -12,7 +12,8 @@ Needed extremely simple way of creating temporary folder, whose content is delet
 
 ## How to run
 
-1. Get [composer](https://getcomposer.org/)
+1. Get [composer](https://getcomposer.org/).
+2. `composer require havramar/phpunit-tmp-dir:dev-master`
 2. Create example file:
 
   ```php
